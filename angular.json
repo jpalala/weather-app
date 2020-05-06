@@ -27,12 +27,12 @@
               "node_modules/primeicons/primeicons.css",
               "node_modules/primeng/resources/themes/luna-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
-	      "node_modules/bootstrap/dist/css/bootstrap.css",	
+	      "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": [
 	           "node_modules/jquery/dist/jquery.js"	,
-	           "node_modules/bootstrap/dist/js/bootstrap.js"	
+	           "node_modules/bootstrap/dist/js/bootstrap.js"
 		]
           },
           "configurations": {
@@ -67,7 +67,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "weather-app:build"
+            "browserTarget": "weather-app:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {

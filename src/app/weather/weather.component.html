@@ -1,1 +1,9 @@
-<p>Temperature for {{ city }} is  {{ temperature }}</p>
+<h1>Weather</h1>
+
+<p>Showing forecast for {{ city$.name }} </p>
+
+<ul>
+  <li *ngFor="let weather of weather$">
+  {{ weather.dt_txt }} - It's gonna be {{weather.weather[0].description }} {{ this.getCelsius((weather.main.temp)) }} C
+  </li>
+</ul>

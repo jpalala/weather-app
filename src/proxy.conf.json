@@ -1,0 +1,10 @@
+{
+  "/forecasts": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/city": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}

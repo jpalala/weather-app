@@ -2,9 +2,13 @@
 
 This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3. It has since been updated to angular 8.2.6.
 
+## Screenshot
 
-TODO: deploy a working app on heroku
+![Screenshot](screenshot-weatherapp.png)
 
+## API
+
+First run `npm run api` to run an api serving on `localhost:3000` which uses [json-server](https://github.com/typicode/json-server)
 
 ## Development server
 
@@ -18,15 +22,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Deploy to Cloud Foundry
-Login using the Cloud Foundry CLI
-
-`cf login -a api.run.pivotal.io`
-
-Change directory to `dist/weather-app`
-
-`cf push gg-weather-app -b staticfile_buildpack`
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -38,3 +33,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# TODO:
+
+- [ ] demo app (heroku?)

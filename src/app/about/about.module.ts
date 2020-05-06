@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about.component';
 import { MainNavModule } from '../main-nav/main-nav.module';
-import { MatDividerModule, MatListModule } from '@angular/material';
+
+// import { MatDividerModule, MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [AboutComponent],
   imports: [
     CommonModule,
     MainNavModule,
-    MatDividerModule,
-    MatListModule
+
   ],
   exports: [
     AboutComponent
