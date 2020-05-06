@@ -1,8 +1,10 @@
 # WeatherApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3. It has since been updated to angular 8.2.6.
 
-For demo purpose, this app can be viewed at [here](https://gg-weather-app.cfapps.io/)
+
+TODO: deploy a working app on heroku
+
 
 ## Development server
 
