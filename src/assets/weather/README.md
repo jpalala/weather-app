@@ -1,0 +1,1 @@
+Icons made by [Ladalle CS from IconFinder](https://www.iconfinder.com/iconsets/weather-flat-14)
